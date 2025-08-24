@@ -1,0 +1,35 @@
+# dependencies
+node_modules
+.pnp.*
+
+# build outputs
+.next
+out
+build
+
+# coverage & testing
+coverage
+
+# static assets
+public
+
+# misc
+.DS_Store
+*.pem
+
+# lockfiles
+*.lock*
+*-lock*
+
+# debug
+*.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
