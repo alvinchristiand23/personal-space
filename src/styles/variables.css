@@ -1,0 +1,28 @@
+:root {
+  --color-root: light-dark(#ffffff, #ffffff);
+  --color-surface: light-dark(#eceef2, #eceef2);
+  --color-border: light-dark(#f2f2f2, #f2f2f2);
+  --color-accent: light-dark(#5ca3e2, #5ca3e2);
+  --color-muted: light-dark(#606060, #606060);
+
+  --color-primary: light-dark(#121212, #121212);
+  --color-secondary: light-dark(#484848, #484848);
+}
+
+@theme inline {
+  --color-root: var(--color-root);
+  --color-surface: var(--color-surface);
+  --color-border: var(--color-border);
+  --color-accent: var(--color-accent);
+  --color-muted: var(--color-muted);
+
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+
+  --text-xs: 0.79rem;
+  --text-sm: 0.89rem;
+  --text-base: 1rem;
+  --text-lg: 1.13rem;
+  --text-xl: 1.27rem;
+  --text-2xl: 1.42rem;
+}
