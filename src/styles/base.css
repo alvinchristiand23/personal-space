@@ -1,0 +1,26 @@
+@layer base {
+  html {
+    @apply scroll-py-4 scroll-smooth text-base scheme-light-dark transition-colors;
+  }
+
+  body {
+    @apply bg-root text-primary font-onest min-h-dvh w-full overscroll-none leading-loose font-normal;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-pally leading-normal antialiased;
+  }
+
+  p {
+    @apply leading-loose;
+  }
+
+  :focus-visible {
+    @apply ring-accent ring-2 outline-none;
+  }
+}
