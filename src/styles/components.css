@@ -1,0 +1,17 @@
+@layer components {
+  .heading-section {
+    @apply text-2xl font-bold;
+  }
+
+  .heading-subsection {
+    @apply text-xl font-semibold;
+  }
+
+  .heading-item {
+    @apply text-lg font-semibold;
+  }
+
+  .supporting-text {
+    @apply text-secondary text-sm font-medium;
+  }
+}
