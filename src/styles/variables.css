@@ -7,6 +7,9 @@
 
   --color-primary: light-dark(#121212, #121212);
   --color-secondary: light-dark(#484848, #484848);
+
+  --font-onest: "Onest", sans-serif;
+  --font-pally: "Pally", sans-serif;
 }
 
 @theme inline {
@@ -18,6 +21,9 @@
 
   --color-primary: var(--color-primary);
   --color-secondary: var(--color-secondary);
+
+  --font-onest: var(--font-onest);
+  --font-pally: var(--font-pally);
 
   --text-xs: 0.79rem;
   --text-sm: 0.89rem;
