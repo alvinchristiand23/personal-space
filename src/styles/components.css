@@ -14,4 +14,8 @@
   .supporting-text {
     @apply text-secondary text-sm font-medium;
   }
+
+  .spacer {
+    @apply bg-root sticky z-80 h-8;
+  }
 }
