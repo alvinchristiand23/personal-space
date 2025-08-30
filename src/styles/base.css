@@ -20,6 +20,10 @@
     @apply leading-loose;
   }
 
+  small {
+    @apply text-secondary text-xs leading-loose;
+  }
+
   :focus-visible {
     @apply ring-accent ring-2 outline-none;
   }
