@@ -1,6 +1,6 @@
 @layer base {
   html {
-    @apply scroll-py-4 scroll-smooth text-base scheme-light-dark transition-colors;
+    @apply scroll-py-8 scroll-smooth text-base scheme-light-dark transition-colors;
   }
 
   body {
@@ -13,15 +13,21 @@
   h4,
   h5,
   h6 {
-    @apply font-pally leading-normal antialiased;
+    @apply font-pally leading-normal;
   }
 
   p {
     @apply leading-loose;
+    font-size: clamp(var(--text-sm), 0.1571vw + 0.8586rem, var(--text-base));
   }
 
   small {
-    @apply text-secondary text-xs leading-loose;
+    @apply text-secondary text-xs leading-loose font-medium;
+  }
+
+  svg {
+    width: clamp(1.4rem, 0.2857vw + 1.343rem, 1.6rem);
+    height: auto;
   }
 
   :focus-visible {
