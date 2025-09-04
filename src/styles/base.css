@@ -17,12 +17,12 @@
   }
 
   p {
-    @apply leading-loose;
+    @apply translate-y-0.25 leading-loose;
     font-size: clamp(var(--text-sm), 0.1571vw + 0.8586rem, var(--text-base));
   }
 
   small {
-    @apply text-secondary text-xs leading-loose font-medium;
+    @apply text-secondary translate-y-0.25 text-xs leading-loose font-medium;
   }
 
   svg {

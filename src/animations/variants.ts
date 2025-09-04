@@ -5,6 +5,11 @@ export const scaleXAnimation: Variants = {
   hover: { scaleX: 1 },
 };
 
+export const opacityAnimation: Variants = {
+  initial: { opacity: 0 },
+  hover: { opacity: 1 },
+};
+
 export const hoverTransition: Transition = {
   duration: 0.15,
   ease: "easeOut",

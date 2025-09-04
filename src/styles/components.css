@@ -15,11 +15,21 @@
   }
 
   .supporting-text {
-    @apply text-secondary font-medium;
+    @apply text-secondary translate-y-0.25 font-medium;
     font-size: clamp(var(--text-xs), 0.1429vw + 0.7614rem, var(--text-sm));
   }
 
   .spacer {
     @apply lg:bg-root hidden lg:sticky lg:z-80 lg:flex lg:h-8;
+  }
+
+  .section-content {
+    @apply flex flex-col gap-y-8;
+  }
+
+  .logo {
+    @apply object-contain;
+    width: clamp(1.4rem, 0.2857vw + 1.343rem, 1.6rem);
+    height: auto;
   }
 }

@@ -7,4 +7,12 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+
+  .select-none {
+    -webkit-touch-callout: none; /* Disable iOS tap-and-hold menu */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 }
