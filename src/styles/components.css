@@ -1,21 +1,25 @@
 @layer components {
   .heading-section {
-    @apply text-2xl font-bold;
+    @apply font-bold;
+    font-size: clamp(var(--text-xl), 0.2142857vw + 1.2271429rem, var(--text-2xl));
   }
 
   .heading-subsection {
-    @apply text-xl font-semibold;
+    @apply font-semibold;
+    font-size: clamp(var(--text-lg), 0.2vw + 1.09rem, var(--text-xl));
   }
 
   .heading-item {
-    @apply text-lg font-semibold;
+    @apply font-semibold;
+    font-size: clamp(var(--text-base), 0.1857vw + 0.9629rem, var(--text-lg));
   }
 
   .supporting-text {
-    @apply text-secondary text-sm font-medium;
+    @apply text-secondary font-medium;
+    font-size: clamp(var(--text-xs), 0.1429vw + 0.7614rem, var(--text-sm));
   }
 
   .spacer {
-    @apply bg-root sticky z-80 h-8;
+    @apply lg:bg-root hidden lg:sticky lg:z-80 lg:flex lg:h-8;
   }
 }
