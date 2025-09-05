@@ -32,4 +32,9 @@
     width: clamp(1.4rem, 0.2857vw + 1.343rem, 1.6rem);
     height: auto;
   }
+
+  .small-icon {
+    width: clamp(0.8rem, 0.2857vw + 0.743rem, 1rem);
+    height: auto;
+  }
 }

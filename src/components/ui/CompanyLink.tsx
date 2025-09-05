@@ -23,7 +23,7 @@ export default function CompanyLink({ logo, name, className, ...props }: Props) 
       tabIndex={-1}
       initial="initial"
       whileHover="hover"
-      className={cn("flex w-fit cursor-pointer flex-wrap items-center gap-2", className)}
+      className={cn("flex w-fit cursor-pointer flex-wrap items-center gap-x-2 gap-y-1", className)}
       {...props}
     >
       <Image src={logo} width={24} height={24} alt={`Logo of ${name}`} className="logo" />
